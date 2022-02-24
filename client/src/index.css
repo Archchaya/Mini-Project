@@ -25,7 +25,7 @@ code {
 }
 
 #components-layout-demo-custom-trigger .trigger:hover {
-  color: #1890ff;
+  color: #275296;
 }
 
 #components-layout-demo-custom-trigger .logo {
@@ -59,11 +59,11 @@ code {
 }
 
 .ant-layout-sider-children{
-  background: linear-gradient(to right, #03702dcb, #061700)!important;
+ background-image: radial-gradient( circle farthest-corner at 10% 20%,  #275296 0%, rgba(33,33,33,1) 100.2% ) !important;
 }
 
 .ant-menu{
-  background: linear-gradient(to right, #03702dcb, #061700)!important;
+   background-image: radial-gradient( circle farthest-corner at 10% 20%,  #275296 0%, #243A5E 100.2% ) !important;
 
 }
 
@@ -100,7 +100,7 @@ p{
 }
 
 button{
-  background-color: #043E19 !important;
+  background-color: #275296 !important;
   color: white !important;
   border-radius: 20px !important;
 }
@@ -109,8 +109,8 @@ button{
   padding-top: 150px !important;
 }
 
-input, textarea , .ant-input{
-  border: 1px solid #043E19 !important;
+input, textarea , .ant-input,.ant-select-selector{
+  border: 1px solid #275296 !important;
   box-shadow: none !important;
 }
 
@@ -123,7 +123,7 @@ input, textarea , .ant-input{
 }
 
 .login{
-  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+ background-image: radial-gradient( circle farthest-corner at 10% 20%,  #275296 0%, rgba(33,33,33,1) 100.2% ) !important;
   height: 100vh !important;
 }
 .login-form{
@@ -131,7 +131,7 @@ input, textarea , .ant-input{
 }
 
 .register{
-  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  #275296 0%, rgba(33,33,33,1) 100.2% ) !important;
   height: 100vh !important;
   padding-top: 130px !important;
 }
@@ -160,3 +160,4 @@ input, textarea , .ant-input{
 h1{
   font-size: 35px !important;
 }
+

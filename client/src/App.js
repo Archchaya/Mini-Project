@@ -19,7 +19,7 @@ import PostedJobs from "./pages/PostedJobs";
 import EditJob from "./pages/EditJob";
 import { getAllUsers } from "./redux/actions/userActions";
 import UserInfo from "./pages/UserInfo";
-
+import main from "./pages/Main";
 function App() {
   const { loader } = useSelector((state) => state.loaderReducer);
   const dispatch = useDispatch();
@@ -37,6 +37,7 @@ function App() {
       )}
 
       <BrowserRouter>
+        <Route path="/main" exact component={main}></Route>
         <Route path="/login" exact component={Login}></Route>
         <Route path="/register" exact component={Register}></Route>
 
@@ -60,7 +61,7 @@ export function ProtectedRoute(props) {
   const user = localStorage.getItem("user");
 
   if (!user) {
-    return <Redirect to="/login" />;
+    return <Redirect to="/main" />;
   } else {
     return <Route {...props} />;
   }

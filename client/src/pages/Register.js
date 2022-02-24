@@ -43,7 +43,7 @@ function Register() {
                             <Input />
                         </Form.Item>
                         <Button htmlType='submit'className='mb-3'>Register</Button> <br />
-                        <Link to='/register'className='mt-3' >Already registered, Click here to login</Link>
+                        <Link to='/login'className='mt-3' >Already registered, Click here to login</Link>
                     </Form>
                 </Col>
             <Col lg={5}><h1 className='heading2' data-aos='slide-left' >Jobys</h1></Col>
